@@ -36,4 +36,34 @@ header, footer {
   text-align: center;
   border: 1px solid #ccc;
 }
+.author-section {
+  padding: 4em 2em;
+  background-color: #f9fafb;
+  text-align: center;
+}
 
+.author-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.author-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+
+.author-info h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.author-info p {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.6;
+}
